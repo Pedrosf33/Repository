@@ -1,0 +1,103 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Anta&family=Bebas+Neue&display=swap");
+
+body {
+margin: 0px;
+font-family: "circular std", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+
+}
+#logo{
+    width: 150px;
+ 
+}
+#container{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%),url(  https://assets.nflxext.com/ffe/siteui/vlv3/2e07bc25-8b8f-4531-8e1f-7e5e33938793/921f74cf-01f9-40dd-807c-e49dcc39f496/BR-pt-20240219-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    background-size: 120%;
+    height: 600px;
+    padding: 70px;
+
+  
+}
+
+
+
+
+#header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+select {
+     padding: 5px 15px ;
+     font-size: 15px;
+     color: white;
+     background-color: rgba(0, 0, 0, 0.456);
+     background-image: url(../assets/images/earth-11015_640.jpg);
+     background-size: 20px;
+     background-repeat: no-repeat;
+     background-position: left;
+
+}
+
+#btn-enter{
+    padding: 7px 3px;
+    font-size: 15px;
+    background-color: #e50914;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    margin: 17px;
+}
+#main {
+color: white;
+margin-top: 200px;
+margin-left: 230px;
+}
+#title-main{
+    font-size: 43px;
+    font-weight: 800;
+}
+
+.subtitle-main{
+  margin-left: 180px;
+
+}
+    #h3main{
+        margin-left: 110px ;
+        margin-top: 35px;
+
+}
+.register {
+   
+    display: flex;
+    margin-right: 150px;
+    width: 250px;
+
+}
+
+
+#btn-start{
+    background-color: #e50914;
+    color: white;
+    padding: 1px 50px;
+    margin-left: 8px;
+    font-size: 18px;
+    
+    }
+    
+    
+#input{
+        height:50px;
+        width: 350px;
+        margin-left: 400px;
+        padding: 1px 80px;
+      
+       
+
+}
