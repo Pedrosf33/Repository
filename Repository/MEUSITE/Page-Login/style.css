@@ -17,20 +17,27 @@ body{
   #filhas-enter{
       
           display: flex;
-          flex-direction: row;
-          border-radius: 15px;
+          flex-direction: column;
           padding: 20px;
           box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
           background: rgb(142,1,72);
       background: linear-gradient(90deg, rgba(142,1,72,1) 0%, rgba(23,0,40,1) 30%);
           color: rgb(255, 255, 255);
-          width: 200px;
-          height: 300px;
+          width: 450px;
+          height: 500px;
         transition: all 200ms linear;
         font-size: 8px;
         align-items: row;
+        margin: 15px auto; 
+        gap: 40px;       
   }
-     
+  #input2{
+   height: 55px;
+   }    
+   #password{
+     height: 55px;
+      
+   }
   
   
   
